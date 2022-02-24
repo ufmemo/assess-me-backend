@@ -10,3 +10,10 @@ This component is a React application which uses the Firebase AUTH api to implem
 
 ## Firestore rules
 This component provides rules creating the ability to limit access to data based on specific domains.
+
+
+# TO run this POC
+
+```
+> cd webapp && npm run start
+```
