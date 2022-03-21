@@ -14,7 +14,6 @@ export default function Assessment() {
       try {
         const querySnapshot = await getDocs(collection(db, "results"));
         querySnapshot.forEach((doc) => {
-          console.log(doc.data());
           setData(doc.data());
         });
       } catch (e: any) {

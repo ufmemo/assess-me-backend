@@ -1,3 +1,5 @@
+/** @format */
+
 module.exports = {
   root: true,
   env: {
@@ -20,12 +22,15 @@ module.exports = {
   ignorePatterns: [
     "/lib/**/*", // Ignore built files.
   ],
-  plugins: [
-    "@typescript-eslint",
-    "import",
-  ],
+  plugins: ["@typescript-eslint", "import"],
   rules: {
-    "quotes": ["error", "double"],
+    "object-curly-spacing": ["error", "always"],
+    quotes: "off",
     "import/no-unresolved": 0,
+    "valid-jsdoc": "off",
+    "max-len": "off",
+    "quote-props": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    indent: "off",
   },
 };
